@@ -1,0 +1,21 @@
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  
+  .listItem {
+    padding: 1rem;
+    display: block;
+    background-color: #ede;
+  }
+  
+  .listItem:first {
+    border-radius: 3px 3px 0 0;
+  }
+  
+  a:nth-child(even) {
+    background-color: rgb(226, 199, 226);
+  }
+  
